@@ -1,0 +1,82 @@
+body{background-color:#0A0A28;color:white}
+#item{color:white;background-color:#800000;font-size:40px;height:300px;width:300px;border-radius:10px;border: none;
+ position: fixed;
+ top:50%;right:50%;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ transition:all 0.3s ;
+ animation:left 2s ease;
+ box-shadow:5px 5px 10px black;
+}
+.quest{
+ color:white;background-color:#700450;font-size:20px;height:30%;width:15%;border-radius:10px;border: none;
+ position: fixed;
+ top:50%;right:30%;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ transition:all 0.3s ;
+ animation:left1 2s ease;
+
+}
+.foot{
+ color:white;background-color:#700450;font-size:20px;height:100px;width:300px;border-radius:10px;border: none;
+ position: fixed;
+ bottom:0;right:0;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ transition:all 0.7s ;
+ animation:left2 2s ease;
+}
+#btn:hover{
+  transform:translateY(-15px);
+}
+#item:hover{transform:translateY(-10px);background-color:#a52a2a;
+  color:black;}
+
+
+@keyframes left2 {
+  from{transform:translateX(-200%);}
+  to{transform:translateX(0px);} 
+}
+@keyframes left {
+  from{transform:translateX(-200%);}
+  to{transform:translateX(0%);} 
+}
+@keyframes left1 {
+  from{transform:translateX(-200%);}
+  to{transform:translateX(0px);} 
+}
+.quest:hover{transform:translateY(-15px);background-color:#900450;color:black;box-shadow:10px 10px 10px black:}
+.foot:hover{height:150px;width:500px;font-size:40;background-color:#900450;color:black}
+#op1{background-color:#0A0A28;color:grey;
+font-size:20px;
+height:30px;width:50;border: none;
+position: fixed;
+right:370px;top:15px;
+}
+#op2{background-color:#0A0A28;color:grey;
+font-size:20px;
+height:30px;width:50;border: none;
+position: fixed;
+right:300px;top:15px;}
+#op3{background-color:#0A0A28;color:grey;
+font-size:20px;
+height:30px;width:50;border: none;
+position: fixed;
+right:200px;top:15px;}
+.option:hover{transform:translateY(-5px);color:white;}
+.option{transition:transform 0.3s;}
+#op4{background-color:#FF2727;color:white;
+font-size:20px;border-radius:10px;
+height:30px;width:50;box-shadow: 0px 0px 0px 2px #F92757;
+position: fixed;
+right:100px;top:15px;}
+.container{
+  width:92%;
+  margin:auto;
+  height:100%;
+  border:2px solid red;
+}
